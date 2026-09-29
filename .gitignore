@@ -1,0 +1,5 @@
+tools/pipeline/node_modules/
+tools/pipeline/data/
+tools/pipeline/dist/
+app/android/key.properties
+*.jks

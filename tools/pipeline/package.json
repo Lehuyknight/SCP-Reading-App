@@ -1,0 +1,18 @@
+{
+  "name": "scp-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Crawl SCP Wiki (EN), dịch sang tiếng Việt bằng Ollama, đóng gói SQLite cho app",
+  "scripts": {
+    "crawl": "node crawl.js",
+    "translate": "node translate.js",
+    "pack": "node pack.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
